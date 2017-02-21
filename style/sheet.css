@@ -1,0 +1,28 @@
+/*
+	CEO Cookoff
+	Custom Styles
+*/
+
+/* Tracking */
+
+#tracker li {
+  font-family: 'FrankfurterMediumLetPlain';
+  font-size: 1.5rem;
+}
+
+#tracker h1 {
+  font-family: 'FrankfurterLetPlain';
+  font-size: 2.5rem;
+}
+#tracker h2 {
+  font-family: 'FrankfurterLetPlain';
+  font-size: 2rem;
+}
+#tracker h3 {
+  font-family: 'FrankfurterLetPlain';
+  font-size: 2.5rem;
+}
+#tracker h4 {
+  font-family: 'FrankfurterLetPlain';
+  font-size: 2rem;
+}

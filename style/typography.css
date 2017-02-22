@@ -3,6 +3,6 @@
 	Custom Typography
 */
 
-@font-face { font-family: 'FrankfurterLetPlain'; src: url("/css/fonts/frankfurter-let.eot"); src: url("/css/fonts/frankfurter-let.woff") format("woff"); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'FrankfurterMediumLetPlain'; src: url("/css/fonts/frankfurter-medium-let.woff") format("woff"); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'BPreplayBold'; src: url("/css/fonts/bpreplaybold-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'FrankfurterLetPlain'; src: url("../typography/frankfurter-let.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'FrankfurterMediumLetPlain'; src: url("../typography/frankfurter-medium-let.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'BPreplayBold'; src: url("../typography/bpreplaybold-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }

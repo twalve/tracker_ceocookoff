@@ -3,26 +3,77 @@
 	Custom Styles
 */
 
-/* Tracking */
+/* Progress */
 
-#tracker li {
+#progress {
+  background-color: white;
+  margin-top: 50px;
+  padding: 25px 80px;
+  width: 69.5%;
+}
+
+#progress div {
+  overflow: hidden;;
+}
+
+#progress ol {
+  float: left;
+}
+
+#progress ul {
+  float: right;
+}
+
+#progress li {
   font-family: 'FrankfurterMediumLetPlain';
   font-size: 1.5rem;
+  margin-bottom: .25rem;
 }
 
-#tracker h1 {
+#progress h1 {
   font-family: 'FrankfurterLetPlain';
-  font-size: 2.5rem;
+  font-size: 1.75rem;
 }
-#tracker h2 {
+
+#progress h2 {
   font-family: 'FrankfurterLetPlain';
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
-#tracker h3 {
+
+#progress span {
+  display: block;
   font-family: 'FrankfurterLetPlain';
-  font-size: 2.5rem;
+  font-size: 2.25rem;
 }
-#tracker h4 {
-  font-family: 'FrankfurterLetPlain';
-  font-size: 2rem;
+
+#progress aside {
+  margin-top: 25px;
+}
+
+#progress aside span {
+  background-color: #E5E5E5;
+  border-radius: .5rem;
+  height: 1.5rem;
+}
+
+#progress aside > span {
+  width: 100%;
+}
+
+/*#progress aside span span*/
+#progress #progress-track {
+  background: #FFF000;
+  cursor: pointer;
+  transition: width 1s ease;
+  min-width: 10%;
+  width: 10%;
+}
+
+#progress #progress-track.progress {
+}
+
+#progress img {
+  float: right;
+  position: relative;
+  top: -1rem;
 }
